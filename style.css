@@ -1,0 +1,185 @@
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Background Section with Parallax Effect */
+.main {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    animation: parallax 10s infinite linear;
+}
+
+/* Dark Overlay for Readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Parallax Effect */
+@keyframes parallax {
+    0% { background-position: center top; }
+    100% { background-position: center bottom; }
+}
+
+/* Navigation Bar */
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+}
+
+nav img {
+    width: 150px;
+    filter: drop-shadow(2px 2px 5px rgba(255, 0, 0, 0.7));
+}
+
+/* Buttons */
+nav button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Language Button */
+.lang-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s ease;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Sign In Button */
+.signin-btn {
+    background: red;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.signin-btn:hover {
+    background: darkred;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    z-index: 10;
+    animation: floatUp 2s ease-in-out;
+}
+
+/* Neon Glow for Hero Title */
+.hero-title {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.7);
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+/* Subtle Glow Animation */
+@keyframes neonGlow {
+    0% { text-shadow: 2px 2px 20px rgba(255, 0, 0, 0.5); }
+    100% { text-shadow: 2px 2px 30px rgba(255, 0, 0, 0.9); }
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Glassmorphism for Email Form */
+.email-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Input Field */
+.email-form input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* Placeholder Style */
+.email-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Focus Effect */
+.email-form input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Animated Get Started Button */
+.start-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Cool Glow Effect */
+.start-btn:hover {
+    background: darkred;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
