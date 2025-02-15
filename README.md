@@ -6,7 +6,7 @@ A visually stunning Netflix homepage clone built using HTML, CSS, and JavaScript
 ✅ Parallax Background Effect – Smooth scrolling effect for depth illusion.
 ✅ Neon Glow UI – Inspired by Netflix, with vibrant animations.
 ✅ Glassmorphism Email Box – Modern, transparent email input field.
-✅ Animated Buttons – Hover effects with glow and scaling.
+✅ Animated Buttons – Hover effects with glow and scaling
 ✅ Responsive Design – Works on all screen sizes.
 ✅ Favicon Support – Netflix-style branding in browser tabs.
 
