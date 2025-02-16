@@ -1,6 +1,6 @@
 # Netflix_clone
 🎬 Netflix Clone
-A visually stunning Netflix homepage clone built using HTML, CSS, and JavaScript. This project features a sleek UI, neon-glow effects, parallax scrolling, and a glassmorphism-inspired email signup form to deliver a cinematic experience.
+A visually stunning Netflix homepage clone built using HTML, CSS, and JavaScript. This project features a sleek UI, neon-glow effects, parallax scrolling, and a glassmorphism-inspired email signup form to deliver a cinematic experience
 
 🚀 Features
 ✅ Parallax Background Effect – Smooth scrolling effect for depth illusion.
