@@ -16,3 +16,4 @@ A visually stunning Netflix homepage clone built using HTML, CSS, and JavaScript
 HTML5 – Structured webpage layout
 CSS3 – Styling, animations, and effects
 JavaScript (Optional for Enhancements) – Future interactivity
+Netflix and chill!!
